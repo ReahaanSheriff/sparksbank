@@ -28,9 +28,9 @@
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-        <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>{{acc.cid.name}}</a></li>
-        <li><a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-exchange" aria-hidden="true"></i>{{acc.ano}}</a></li>
-        <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i>{{acc.balance}}</a></li>
+        <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;{{acc.cid.name}}</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-exchange" aria-hidden="true"></i>&nbsp;{{acc.ano}}</a></li>
+        <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i>&nbsp;{{acc.balance}}</a></li>
       </ul>
     </nav>
   </header>
@@ -84,10 +84,31 @@
         </div>
     </form>
   
-       
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <footer class="fixed-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p> &nbsp;Reahaan Sheriff</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="{% static 'js/isotope.min.js' %}"></script>
+      <script src="{% static 'js/owl-carousel.js' %}"></script>
+      <script src="{% static 'js/lightbox.js' %}"></script>
+      <script src="{% static 'js/tabs.js' %}"></script>
+      <script src="{% static 'js/video.js' %}"></script>
+      <script src="{% static 'js/slick-slider.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
